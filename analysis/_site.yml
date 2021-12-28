@@ -1,7 +1,7 @@
-name: "PiB_signatures"
+name: PiB_signatures
 output_dir: ../docs
 navbar:
-  title: "PiB_signatures"
+  title: PiB_signatures
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fab fa-github
+    text: Source code
+    href: https://github.com/Sergio-Fdez-Adan/PiB_signatures
 output:
   workflowr::wflow_html:
     toc: yes
